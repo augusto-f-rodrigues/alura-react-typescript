@@ -1,5 +1,5 @@
-import "./style.scss";
-
+import { Item } from "./Item";
+import styles from "./List.module.scss";
 
 export function List() {
   const tasks = [
@@ -7,13 +7,11 @@ export function List() {
     { name: "Typescript", time: "01:00:00" },
   ];
   return (
-    <aside>
-      <ul className="listaTarefas">
+    <aside className={styles.listaTarefas}>
+      <h2> What study today: </h2>
+      <ul>
         {tasks.map((el, i) => (
-          <li key={i} className='item'>
-            <h2>{el.name}</h2>
-            <span>{el.time}</span>
-          </li>
+          <Item key={i} {...el} />
         ))}
       </ul>
     </aside>

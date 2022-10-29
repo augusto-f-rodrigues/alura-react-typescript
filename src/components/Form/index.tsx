@@ -1,13 +1,12 @@
 import { Button } from "../Button";
-import "./style.scss";
+import styles from "./Form.module.scss";
 
 export function Form() {
   return (
-    <form className="novaTarefa">
-      <div className="inputContainer">
+    <form className={styles.novaTarefa}>
+      <div className={styles.inputContainer}>
         <label htmlFor="task">Task</label>
         <input
-          
           id="tarefa"
           type="text"
           placeholder="What you wanna study?"
@@ -15,10 +14,9 @@ export function Form() {
         />
       </div>
 
-      <div className="inputContainer">
+      <div className={styles.inputContainer}>
         <label htmlFor="time">Time</label>
         <input
-          
           id="tempo"
           type="time"
           step={1}
@@ -29,7 +27,9 @@ export function Form() {
         />
       </div>
 
-      <Button />
+      <Button>
+        Add
+      </Button>
     </form>
   );
 }

@@ -1,4 +1,4 @@
-# Cronômetro 
+# Cronômetragem de Tarefas
 
 Aplicação simples utilizando React com Typescript para a construção de um cronômetro para tarefas que podemos setar com o nome que preferirmos.
 
@@ -20,3 +20,4 @@ Possível criar tarefas distintas e colocar um tempo regressivo enquanto realiza
 
 ## Visual 
 
+![example](https://user-images.githubusercontent.com/85464318/204060315-8a316cf6-8dff-4ab8-b167-8168e2a9a937.gif)

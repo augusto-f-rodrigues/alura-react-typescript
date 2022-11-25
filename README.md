@@ -2,6 +2,11 @@
 
 Aplicação simples utilizando React com Typescript para a construção de um cronômetro para tarefas que podemos setar com o nome que preferirmos.
 
+## Deploy
+
+Você pode testar o programa pois foi feito o deploy na Vercel:
+https://alura-react-typescript.vercel.app/
+
 ## Instalação
 
 Instalação básica dos pacotes através do npm ou gerenciador de sua preferencia, abaixo segue exemplo com o npm o qual eu tenho familiaridade:
@@ -17,6 +22,7 @@ Possível criar tarefas distintas e colocar um tempo regressivo enquanto realiza
 
 1. Fazer alguma forma de cache para salvar as tarefas escolhidas.
 2. Método para apagar as tarefas ou edita-lás
+3. Retirar a limitação de aproximadamente uma hora e meia
 
 ## Visual 
 
